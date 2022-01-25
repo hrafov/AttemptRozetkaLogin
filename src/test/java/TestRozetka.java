@@ -58,7 +58,7 @@ public class TestRozetka {
         }
 //TODO input valid mail and password
         driver.findElement(By.xpath("//input[@id='email']")).sendKeys("0679829142");
-        driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("grafin6353");
+        driver.findElement(By.xpath("//input[@id='pass']")).sendKeys("Password");
         driver.findElement(By.xpath("//input[@name='login']")).click();
 
         Thread.sleep(10000);
