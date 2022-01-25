@@ -50,7 +50,8 @@ public class TestRozetka {
                         "\n\t Title:\t\t" + driver.getTitle());
             }
             else {
-                driver.switchTo().window(windowHandle);
+                driver.
+                        switchTo().window(windowHandle);
                 System.out.println("\t Window ID 2: \t" + windowHandle +
                         "\n\t URL:\t\t" + driver.getCurrentUrl() +
                         "\n\t Title:\t\t" + driver.getTitle());
